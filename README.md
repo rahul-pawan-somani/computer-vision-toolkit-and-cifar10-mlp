@@ -37,7 +37,7 @@ The project compares:
 
 This analysis demonstrates how traditional edge detectors can exhibit directional bias and how diagonal-aware methods can improve edge representation.
 
-![Diagonal Edge Detection](outputs/q1_diagonal_edge.png)
+![Diagonal Edge Detection](images/q1_diagonal_edge.png)
 
 ---
 
@@ -47,7 +47,7 @@ Developed a spatial colour descriptor that preserves coarse image layout informa
 
 The resulting feature representation captures both colour distribution and spatial structure.
 
-![Spatial Histogram Descriptor](outputs/q2_spatial_hist.png)
+![Spatial Histogram Descriptor](images/q2_spatial_hist.png)
 
 ---
 
@@ -62,7 +62,7 @@ Both methods produce identical histogram outputs while demonstrating the perform
 
 The runtime comparison highlights the efficiency gains achievable through NumPy-based optimisation.
 
-![Runtime Comparison](outputs/q3_runtimes.png)
+![Runtime Comparison](images/q3_runtimes.png)
 
 ---
 
@@ -72,7 +72,7 @@ Derived and implemented the inverse of a rigid two-dimensional transformation in
 
 The implementation validates the mathematical derivation by recovering original point coordinates from transformed point sets with negligible reconstruction error.
 
-![Inverse Transformation Verification](outputs/q4_inverse_transform_plot.png)
+![Inverse Transformation Verification](images/q4_inverse_transform_plot.png)
 
 ---
 
@@ -132,7 +132,7 @@ MLP Classifier
 
 The patch-based MLP achieved a test accuracy of **75.17%** on the CIFAR-10 dataset while using a significantly simpler architecture than convolutional neural networks.
 
-![Training Curve](outputs/q5_training_curve.png)
+![Training Curve](images/q5_training_curve.png)
 
 ---
 
@@ -156,13 +156,15 @@ The patch-based MLP achieved a test accuracy of **75.17%** on the CIFAR-10 datas
 .
 ├── data/
 │   └── flower.jpg
-│
-├── outputs/
+
+├── images/
 │   ├── q1_diagonal_edge.png
 │   ├── q2_spatial_hist.png
 │   ├── q3_runtimes.png
 │   ├── q4_inverse_transform_plot.png
-│   ├── q5_training_curve.png
+│   └── q5_training_curve.png
+│
+├── outputs/
 │   ├── q1_gradients.txt
 │   ├── q2_spatial_hist_summary.txt
 │   ├── q3_summary.txt

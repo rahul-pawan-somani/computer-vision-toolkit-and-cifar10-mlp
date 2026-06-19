@@ -1,0 +1,10 @@
+Q1 numeric comparison at (4,4)
+
+Custom finite-diff: magnitude=180.3122, direction=-45.00 deg
+Sobel-like:        magnitude=1081.8734, direction=-45.00 deg
+Diag-corrected:    magnitude=1275.0000, direction=135.00 deg
+
+Saved outputs:
+q1_diagonal_edge.npy
+q1_diagonal_edge.png
+q1_gradients.csv

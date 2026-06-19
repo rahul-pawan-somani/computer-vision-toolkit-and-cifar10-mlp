@@ -1,0 +1,8 @@
+Q4 inverse transform sanity check
+theta_degrees: 30.00
+translation: (2.0, -1.0)
+max abs reconstruction error: 2.220446e-16
+saved figure: q4_inverse_transform_plot.png
+saved coordinates: q4_points.csv
+saved summary: q4_inverse_transform_summary.txt
+recovered points overlap the original points up to floating-point precision

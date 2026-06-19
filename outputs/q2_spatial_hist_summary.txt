@@ -1,0 +1,8 @@
+Q2 spatial histogram demo
+image shape: (500, 588, 3)
+feature shape: (96,)
+feature dtype: float64
+feature sum: 12.000000 (4 cells × 3 channel histograms, each normalised to sum to 1)
+saved descriptor: q2_spatial_hist.npy
+saved figure: q2_spatial_hist.png
+saved summary: q2_spatial_hist_summary.txt

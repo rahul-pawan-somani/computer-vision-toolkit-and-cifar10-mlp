@@ -1,0 +1,6 @@
+Q3 runtime comparison
+Compared NumPy and pure Python colour histogram implementations.
+num_bins tested: [8, 16, 32]
+NumPy times: [0.011990416600000008, 0.013679392000000012, 0.022105500199999996]
+Python times: [0.11053514180000001, 0.11036470000000001, 0.11074521660000011]
+Saved outputs: q3_runtimes.csv, q3_runtimes.png, q3_summary.txt

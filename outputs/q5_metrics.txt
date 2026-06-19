@@ -1,0 +1,18 @@
+Q5 CIFAR-10 MLP results
+device=cpu
+patch_size=4
+patch_embed_dim=96
+hidden_dims=(1024, 512)
+dropout=0.2
+batch_size=256
+lr=0.0003
+epochs=40
+weight_decay=0.0005
+label_smoothing=0.1
+best_train_acc=74.30%
+best_val_acc=76.26%
+test_acc=75.17%
+predictions_file=q5_predictions.npy
+history_file=q5_history.csv
+curve_file=q5_training_curve.png
+metrics_file=q5_metrics.txt

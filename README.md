@@ -156,7 +156,7 @@ The patch-based MLP achieved a test accuracy of **75.17%** on the CIFAR-10 datas
 .
 ├── data/
 │   └── flower.jpg
-
+│
 ├── images/
 │   ├── q1_diagonal_edge.png
 │   ├── q2_spatial_hist.png
